@@ -5,38 +5,26 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section
-      className="hero-marble hero-shimmer relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="hero-shimmer relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
-      {/* SVG marble veins overlay */}
-      <svg
-        className="absolute inset-0 w-full h-full pointer-events-none"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="xMidYMid slice"
+      {/* Video background */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/hero.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
         aria-hidden
-      >
-        <filter id="marble-hero">
-          <feTurbulence
-            type="turbulence"
-            baseFrequency="0.012 0.008"
-            numOctaves="9"
-            seed="7"
-            result="turb"
-          />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0"
-            in="turb"
-          />
-        </filter>
-        <rect width="100%" height="100%" filter="url(#marble-hero)" />
+      />
 
-        {/* Hand-drawn bright veins */}
-        <path d="M-50 180 Q 300 155 700 190 Q 1000 210 1500 170" stroke="rgba(255,255,255,0.05)" strokeWidth="1.2" fill="none" />
-        <path d="M-50 380 Q 400 360 800 385 Q 1100 400 1500 360" stroke="rgba(255,255,255,0.04)" strokeWidth="0.8" fill="none" />
-        <path d="M-50 560 Q 350 540 750 570 Q 1100 585 1500 545" stroke="rgba(255,255,255,0.035)" strokeWidth="1" fill="none" />
-        <path d="M 250 -20 Q 270 300 260 720" stroke="rgba(255,255,255,0.03)" strokeWidth="0.7" fill="none" />
-        <path d="M 900 -20 Q 920 350 910 720" stroke="rgba(255,255,255,0.025)" strokeWidth="0.6" fill="none" />
-      </svg>
+      {/* Dark gradient overlay for text readability */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: 'linear-gradient(to bottom, rgba(10,8,6,0.62) 0%, rgba(10,8,6,0.48) 50%, rgba(10,8,6,0.72) 100%)',
+        }}
+      />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-4xl mx-auto">
