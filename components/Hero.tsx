@@ -9,7 +9,7 @@ export default function Hero() {
     >
       {/* Video background */}
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-bottom"
         src="/hero.mp4"
         autoPlay
         muted
