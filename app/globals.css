@@ -72,7 +72,7 @@ body {
 /* ── Hero video: posizione più bassa su desktop ── */
 @media (min-width: 768px) {
   .hero-video {
-    transform: scale(1.3) translateY(10%);
+    transform: scale(1.1) translateY(5%);
     transform-origin: bottom center;
   }
 }
