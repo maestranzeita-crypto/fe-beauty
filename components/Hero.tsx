@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section
-      className="hero-shimmer relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
       {/* Video background */}
       <video
-        className="absolute inset-0 w-full h-full object-cover object-bottom hero-video"
+        className="absolute inset-0 w-full h-full object-cover object-center"
         src="/hero.mp4"
         autoPlay
         muted
