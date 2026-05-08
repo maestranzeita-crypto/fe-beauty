@@ -97,15 +97,9 @@ export default function Hero() {
         >
           <a
             href="#contatti"
-            className="font-montserrat text-[10px] font-medium uppercase tracking-[0.22em] bg-[#C8A96E] text-[#0D0D0D] px-10 py-4 hover:bg-[#b8994e] transition-colors duration-300"
-          >
-            PRENOTA ORA
-          </a>
-          <a
-            href="#servizi"
             className="font-montserrat text-[10px] font-medium uppercase tracking-[0.22em] border border-[#F7F4F0]/40 text-[#F7F4F0] px-10 py-4 hover:border-[#F7F4F0]/80 transition-colors duration-300"
           >
-            SCOPRI I SERVIZI
+            PRENOTA ORA
           </a>
         </motion.div>
       </div>
