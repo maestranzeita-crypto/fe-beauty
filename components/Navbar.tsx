@@ -45,10 +45,10 @@ export default function Navbar() {
           <Image
             src="/logo.svg"
             alt="FE Beauty Power"
-            width={100}
-            height={42}
+            width={120}
+            height={36}
             priority
-            className="w-[100px] h-auto"
+            className="w-[120px] h-auto"
           />
         </Link>
 

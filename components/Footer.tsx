@@ -20,9 +20,9 @@ export default function Footer() {
         <Image
           src="/logo.svg"
           alt="FE Beauty Power"
-          width={180}
-          height={80}
-          className="h-[80px] w-auto object-contain mb-6 opacity-85"
+          width={200}
+          height={60}
+          className="h-[60px] w-auto object-contain mb-6 opacity-85"
         />
 
         <div className="gold-line w-24 mb-6" />
