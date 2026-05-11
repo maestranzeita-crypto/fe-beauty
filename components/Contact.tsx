@@ -36,8 +36,8 @@ const contacts = [
   },
   {
     label: 'Dove siamo',
-    value: 'Milano, Italy',
-    href: 'https://maps.google.com/?q=Milano,Italy',
+    value: 'Via Ponte Nuovo, 35 — Milano',
+    href: 'https://maps.google.com/?q=Via+Ponte+Nuovo+35,+20128+Milano+MI',
     cta: 'Come raggiungerci',
     icon: (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
