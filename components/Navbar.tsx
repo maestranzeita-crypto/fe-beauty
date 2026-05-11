@@ -28,14 +28,6 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between relative">
 
-        {/* LEFT — Prenota (gold button) */}
-        <a
-          href="tel:0283635808"
-          className="text-[9px] font-montserrat font-semibold uppercase tracking-[0.22em] bg-[#C8A96E] text-[#0D0D0D] px-4 py-2 hover:bg-[#b8994e] transition-colors duration-300 z-10"
-        >
-          PRENOTA
-        </a>
-
         {/* CENTER — Logo */}
         <Link
           href="/"
